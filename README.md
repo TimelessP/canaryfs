@@ -45,6 +45,44 @@ With uv (recommended):
 uv pip install -e .
 ```
 
+Install directly from Git (uv):
+
+```bash
+# Latest main
+uv pip install git+https://github.com/TimelessP/canaryfs.git
+
+# Specific tag or commit
+uv pip install git+https://github.com/TimelessP/canaryfs.git@v0.1.0
+uv pip install git+https://github.com/TimelessP/canaryfs.git@<commit-sha>
+```
+
+### Upgrade or uninstall
+
+Using uv (recommended):
+
+```bash
+# Upgrade a Git install to the latest main
+uv pip install --upgrade git+https://github.com/TimelessP/canaryfs.git
+
+# Or upgrade to a specific tag/commit
+uv pip install --upgrade git+https://github.com/TimelessP/canaryfs.git@v0.1.0
+uv pip install --upgrade git+https://github.com/TimelessP/canaryfs.git@<commit-sha>
+
+# Uninstall
+uv pip uninstall canaryfs
+```
+
+Editable/local install:
+
+```bash
+# From the project root, upgrade your editable install after pulling changes
+uv pip install --upgrade -e .
+
+# If using pip directly
+pip install --upgrade -e .
+pip uninstall canaryfs
+```
+
 Using the helper script:
 
 ```bash
