@@ -19,3 +19,6 @@ canaryfs = "canaryfs:main"
 
 [project.urls]
 Homepage = "https://example.com/"
+
+[tool.setuptools]
+py-modules = ["canaryfs"]
