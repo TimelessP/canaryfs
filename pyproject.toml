@@ -18,7 +18,7 @@ dependencies = [
 canaryfs = "canaryfs:main"
 
 [project.urls]
-Homepage = "https://example.com/"
+Homepage = "https://github.com/TimelessP/canaryfs"
 
 [tool.setuptools]
 py-modules = ["canaryfs"]
