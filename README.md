@@ -110,6 +110,9 @@ Unmounting:
 - `prepare.sh` — sets up `.venv`, upgrades pip, installs the package (uses uv if available).
 - `run.sh` — simple demo runner: creates `./canary` and mounts with `--ask`.
 
+Git ignores:
+- `.gitignore` excludes local venv, build artifacts, IDE files, and common mount dirs (`./mnt`, `./canary`).
+
 ## Troubleshooting
 
 - `fuse: failed to open /dev/fuse: Permission denied`
