@@ -165,3 +165,7 @@ Git ignores:
 - 10MB in-memory capacity (configurable via `--capacity`). Data is lost on unmount.
 - Single-threaded foreground server to make interactive prompts reliable.
 - Exact-path allowances only; no subtree/wildcard rules (possible future enhancement).
+
+## License
+
+MIT © 2025 Timeless Prototype

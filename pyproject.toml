@@ -9,7 +9,7 @@ description = "CanaryFS: in-memory FUSE filesystem with interactive access promp
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [{ name = "CanaryFS" }]
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 dependencies = [
   "fusepy>=3.0.1",
 ]
