@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canaryfs"
+version = "0.1.0"
+description = "CanaryFS: in-memory FUSE filesystem with interactive access prompts"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "CanaryFS" }]
+license = { text = "MIT" }
+dependencies = [
+  "fusepy>=3.0.1",
+]
+
+[project.scripts]
+canaryfs = "canaryfs:main"
+
+[project.urls]
+Homepage = "https://example.com/"
